@@ -118,7 +118,7 @@ namespace bme280 {
     /**
      * get pressure
      */
-    //% blockId="BME280_GET_PRESSURE" block="get pressure"
+    //% blockId="BME280_PRESSURE" block="pressure"
     //% weight=80 blockGap=8
     export function pressure(): number {
         get();
@@ -128,7 +128,7 @@ namespace bme280 {
     /**
      * get temperature
      */
-    //% blockId="BME280_GET_TEMPERATURE" block="get temperature"
+    //% blockId="BME280_TEMPERATURE" block="temperature"
     //% weight=80 blockGap=8
     export function temperature(): number {
         get();
@@ -138,7 +138,7 @@ namespace bme280 {
     /**
      * get humidity
      */
-    //% blockId="BME280_GET_HUMIDITY" block="get humidity"
+    //% blockId="BME280_HUMIDITY" block="humidity"
     //% weight=80 blockGap=8
     export function humidity(): number {
         get();
