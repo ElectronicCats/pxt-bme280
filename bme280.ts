@@ -150,7 +150,7 @@ namespace bme280 {
      */
     //% blockId="BME280_POWER_ON" block="Power On"
     //% weight=61 blockGap=8
-    export function PowerOn() {
+    export function powerOn() {
         setreg(0xF4, 0x2F)
     }
 
@@ -159,7 +159,7 @@ namespace bme280 {
      */
     //% blockId="BME280_POWER_OFF" block="Power Off"
     //% weight=60 blockGap=8
-    export function PowerOff() {
+    export function powerOff() {
         setreg(0xF4, 0)
     }
 
