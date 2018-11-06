@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ElectronicCats/pxt-bme280.svg?branch=master)](https://travis-ci.org/ElectronicCats/pxt-bme280) 
+
 # BME280
 
 makecode BME280 Digital Pressure and Humidity Sensor package for Maker MakeCode  
