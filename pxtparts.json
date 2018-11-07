@@ -9,15 +9,16 @@
                 {"x": 11, "y": 5},
                 {"x": 18.2, "y": 5},
                 {"x": 25.4, "y": 5},
-                {"x": 32.6, "y": 5},
-                {"x": 39.8, "y": 5}
+                {"x": 32.6, "y": 5}
             ]
         },
-        "numberOfPins": 5,
+        "numberOfPins": 4,
         "instantiation": {
             "kind": "function",
             "fullyQualifiedName": "bme280.pressure,bme280.temperature,bme280.humidity",
-            "argumentRoles": []
+            "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
         },
         "pinDefinitions": [
             {"target": "SDA", "style": "male", "orientation": "+Y" },

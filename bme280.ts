@@ -148,7 +148,7 @@ namespace bme280 {
      */
     //% blockId="BME280_PRESSURE" block="pressure"
     //% weight=80 blockGap=8
-    //% parts=bme280
+    //% parts=bme280 trackArgs=0
     export function pressure(): number {
         get();
         return P;
@@ -159,7 +159,7 @@ namespace bme280 {
      */
     //% blockId="BME280_TEMPERATURE" block="temperature"
     //% weight=80 blockGap=8
-    //% parts=bme280
+    //% parts=bme280 trackArgs=0
     export function temperature(): number {
         get();
         return T;
@@ -170,7 +170,7 @@ namespace bme280 {
      */
     //% blockId="BME280_HUMIDITY" block="humidity"
     //% weight=80 blockGap=8
-    //% parts=bme280
+    //% parts=bme280 trackArgs=0
     export function humidity(): number {
         get();
         return H;
@@ -182,7 +182,7 @@ namespace bme280 {
     //% blockId="BME280_SET_POWER" block="set power $on"
     //% on.shadow=toggleOnOff
     //% weight=61 blockGap=8
-    //% parts=bme280
+    //% parts=bme280 trackArgs=0
     export function setPower(on: boolean) {
         setreg(0xF4, 0x2F)
     }
@@ -192,7 +192,7 @@ namespace bme280 {
      */
     //% blockId="BME280_SET_ADDRESS" block="set address %addr"
     //% weight=50 blockGap=8
-    //% parts=bme280
+    //% parts=bme280 trackArgs=0
     export function setAddress(addr: BME280_I2C_ADDRESS) {
         if (bmeAddr != addr) {
             bmeAddr = addr

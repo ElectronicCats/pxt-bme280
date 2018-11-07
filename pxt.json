@@ -10,5 +10,6 @@
     "public": true,
     "dependencies": {
         "core": "*"
-    }
+    },
+    "installedVersion": "workspace:0c4ceb6c-59de-4f3c-9670-ae6a87ff8600"
 }
