@@ -4,10 +4,12 @@
     "files": [
         "README.md",
         "pxtparts.json",
-        "bme280.ts"
+        "bme280.ts",
+        "parts/bme280.svg"
     ],
     "public": true,
     "dependencies": {
         "core": "*"
-    }
+    },
+    "installedVersion": "workspace:0c4ceb6c-59de-4f3c-9670-ae6a87ff8600"
 }

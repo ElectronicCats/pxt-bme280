@@ -1,5 +1,5 @@
 {
-    "max6675": {
+    "bme280": {
         "visual": {
             "image": "parts/bme280.svg",
             "width": 58,
@@ -9,28 +9,25 @@
                 {"x": 11, "y": 5},
                 {"x": 18.2, "y": 5},
                 {"x": 25.4, "y": 5},
-                {"x": 32.6, "y": 5},
-                {"x": 39.8, "y": 5}
+                {"x": 32.6, "y": 5}
             ]
         },
-        "numberOfPins": 5,
+        "numberOfPins": 4,
         "instantiation": {
             "kind": "function",
-            "fullyQualifiedName": "sensors.bme280Temperature",
-            "argumentRoles": [
-                {"pinInstantiationIdx": 0}
-            ]
+            "fullyQualifiedName": "bme280.pressure,bme280.temperature,bme280.humidity",
+            "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
         },
         "pinDefinitions": [
             {"target": "SDA", "style": "male", "orientation": "+Y" },
-            {"target": {"pinInstantiationIdx": 0}, "style": "male", "orientation": "+Y" },
             {"target": "SCL", "style": "male", "orientation": "+Y" },
             {"target": "ground", "style": "male", "orientation": "+Y" },
             {"target": "threeVolt", "style": "male", "orientation": "+Y" }
         ],
         "assembly": [
-            {"part": true, "pinIndices": [3]},
-            {"pinIndices": [0, 1, 2, 4]}
+            {"pinIndices": [0, 1, 2, 3]}
         ]
     }
 }
