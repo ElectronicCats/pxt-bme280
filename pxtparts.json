@@ -15,7 +15,7 @@
         "numberOfPins": 4,
         "instantiation": {
             "kind": "function",
-            "fullyQualifiedName": "bme280.pressure,bme280.temperature,bme280.humidity",
+            "fullyQualifiedName": "bme280.pressure,bme280.temperature,bme280.humidity,bme280.setPower,bme280.setAddress",
             "argumentRoles": [{
                     "pinInstantiationIdx": 0
                 }]
